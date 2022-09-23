@@ -1,8 +1,7 @@
 body {
     background-color: antiquewhite;
-    max-width: 500px;
+    width: 50%;
     margin: auto;
-    display: flex;
 }
 
 #p1 {
@@ -26,38 +25,43 @@ h1{
     font-size: 30px;
 }
 
-main {
+.main {
     /* justify-content:center; */
-    padding-top: 150px;
-    margin: auto;
+    /* 
     
+    display: flex; */
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 450px;
 }
 
 section{
     padding:20px;
     background-color: whitesmoke;
-    justify-content: center;
-    position: relative;
-    border-radius: 8px;
-    width: 45%;
-    float: left;
+    /* justify-content: center; */
+    /* position: relative; */
+    border-radius: 0px 8px 8px 0px;
+    /* width: 45%;
+    float: left; */
     
 }
 
 #product{
     position: relative;
-    border-radius: 8px;
-    width: 45%;
-    float: left;
+    border-radius: 8px 0px 0px 8px;
+    /* width: 45%; */
+    /* float: left; */
     margin: auto;
     padding: auto;
-    height: 429px;
+    width: 100%;
+    height: 100%;
+    /* height: 429px; */
 }
 
 #image{
-    position: relative;
-    width: 500px;
-   
+    /* position: relative;
+    width: 500px; */
 }
 #price{
     text-align: justify;
@@ -71,7 +75,6 @@ section{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
 }
-
 #old-price{
     color: gray;
     padding-top: 35px;
@@ -82,7 +85,6 @@ section{
     font-size: 14px;
     font-weight: 400;
 }
-
 #btn-div{
     background-color: green;
     border-radius: 5px;
