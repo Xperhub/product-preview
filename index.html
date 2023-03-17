@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <div id="image">
-            <img id="product" src="image-product-desktop.jpg" alt="/">
+            <picture media="(max-width:650px)">
+                <img id="product" src="image-product-desktop.jpg" alt="/">
+            </picture>
         </div>
         <section>
-            <div class="p1-perfume">
-                <h2 id="p1">perfume</h2>
+
+            <p id="p1">perfume</p>
+            <h1>Gabrielle Essence Eau De Parfum</h1>
+            <p id="p2"> A floral, solar and voluptuous interpretation composed by Oliver Polge,
+                Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="price">
+                <p id="new-price">$149.99 <span id="old-price">$169.99</span> </p> 
             </div>
-            <div>
-                <h1>Gabrielle Essence Eau De Parfum</h1>
-            </div>
-            <div>
-                <p id="p2"> A floral, solar and voluptuous interpretation composed by Oliver Polge,
-                    Perfumer-Creator for the House of CHANEL.
-                </p>
-            </div>
-            <div id="price">
-                <p id="new-price">$149.99</p> <span id="old-price">$169.99</span>
-            </div>
+
             <div id="btn-div">
                 <button id="btn-text"><span id="icon"><img src="icon-cart.svg"></span>Add to Cart</button>
             </div>
         </section>
     </div>
-    
-   
+
+
 </body>
+
 </html>
